@@ -1,0 +1,28 @@
+.list {
+  display: inline-flex;
+  flex-direction: column;
+  width: 330px;
+}
+.item {
+  margin-bottom: 20px;
+}
+.number {
+  margin-left: 10px;
+}
+
+.button {
+  display: inline-flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  border: 1px solid rgba(41, 40, 40, 0.2);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.button:hover,
+.button:focus {
+  background-color: rgb(112, 112, 252);
+}

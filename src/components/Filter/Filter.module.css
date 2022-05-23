@@ -1,0 +1,28 @@
+.box {
+  display: flex;
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.nameContact {
+  width: 280px;
+  height: 30px;
+  margin-top: 5px;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgba(41, 40, 40, 0.2);
+  border-radius: 4px;
+  outline: none;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nameContact:focus {
+  border: 2px solid rgb(112, 112, 252);
+}
